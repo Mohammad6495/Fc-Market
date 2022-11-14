@@ -1,0 +1,21 @@
+
+.companion-banner {
+    background-color: var(--color-light);
+    padding: 47px 0px;
+}
+
+.page-link {
+    color: var(--color-redlow);
+}
+.page-link::after {
+    content: " / ";
+}
+.companion-text h3 {
+    color: var(--color-secendery);
+    font-weight: 900;
+}
+@media (max-width:767px) {
+    .companion-text h3 {
+        font-size: 17px;
+    }
+}

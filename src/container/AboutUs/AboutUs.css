@@ -1,0 +1,53 @@
+.about-title {
+  font-weight: 700;
+  color: var(--color-secendery);
+  font-size: 27px;
+}
+@media (max-width:767px) {
+    .about-title {
+        font-size: 20px;
+    }
+}
+.about-des {
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--color-general);
+  text-align: justify;
+}
+.count-company {
+    position: relative;
+}
+
+.count-company img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.count-company .info {
+    position: absolute;
+    top: 38%;
+    right: 37%;
+    color: var(--color-white);
+    text-align: center;
+}
+.count-company .info h6 {
+    font-size: 24px;
+    font-weight: 600;  
+}
+.count-company .info span {
+    font-size: 35px;
+    font-weight: 600;
+}
+@media (max-width:767px) {
+    .count-company .info {
+        position: absolute;
+        top: 38%;
+        right: 43%;
+        color: var(--color-white);
+        text-align: center;
+    }
+}
+.employee {
+    margin-top:25px;
+}

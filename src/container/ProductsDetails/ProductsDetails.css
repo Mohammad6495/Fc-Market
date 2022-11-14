@@ -1,0 +1,151 @@
+.p-details-img-list img {
+  height: 200px;
+  cursor: pointer;
+}
+.p-details-img-list img:hover {
+  opacity: 0.7;
+}
+.p-details-img .big-img {
+  overflow: hidden;
+}
+.p-details-img .big-img img {
+  height: 570px;
+  transition: all 0.3s;
+}
+@media (max-width: 767px) {
+  .p-details-img .big-img img {
+    height: 410px;
+  }
+  .p-details-img-list img {
+    height: 150px;
+  }
+}
+.p-details-img .big-img img:hover {
+  transform: scale(1.1);
+  cursor: crosshair;
+}
+.p-details-info .p-details-title h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-secendery);
+}
+.p-details-info .price .price-off {
+  color: var(--color-green);
+  font-size: 13px;
+}
+.p-details-select select {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid var(--color-secendery);
+  color: var(--color-redlow);
+  background-color: transparent;
+  outline: none;
+}
+.p-details-select select option {
+  color: var(--color-secendery);
+}
+.p-details-info .future .future-title {
+  font-size: 18px;
+}
+.p-details-info .future .list-future p {
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--color-secendery);
+}
+.p-details-info .p-add-to-cart button {
+  border: none;
+  outline: none;
+  color: var(--color-white);
+  background-color: var(--color-secendery);
+  padding: 7px 15px;
+  font-size: 15px;
+}
+.p-details-info .p-details-des p {
+  color: var(--color-secendery);
+  font-size: 16px;
+  line-height: 32px;
+  text-align: justify;
+}
+.p-details-link {
+  position: relative;
+}
+.p-details-link a {
+  color: var(--color-secendery) !important;
+}
+.nav-line {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  position: absolute;
+  bottom: 8px;
+  z-index: -1;
+}
+.details-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--color-secendery);
+  font-weight: 600;
+}
+.details-des {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  color: var(--color-general);
+  text-align: justify;
+}
+#accordion a {
+  color: var(--color-secendery) !important;
+  font-size: 16px;
+  font-weight: 300;
+}
+.card-details {
+  background-color: #f9f9ff;
+  border: none !important;
+  border-radius: 0;
+  margin-bottom: 15px;
+  padding: 15px 8px;
+}
+.comment-profile-img {
+  width: 55px;
+}
+
+.p-details-comments .comments .comment-text{
+  border-radius: 4px;
+  padding: 14px;
+}
+
+.p-details-comments .comments .comment-text span {
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--color-general);
+}
+
+.p-details-comments .comments .comment-text p {
+  color: var(--color-general);
+  font-size: 15px;
+  line-height: 28px;
+  text-align: justify;
+}
+
+.comments-form label {
+  color: var(--color-secendery);
+  font-size: 15px;
+}
+
+.comments-form input,
+.comments-form textarea {
+  width: 100%;
+  border: 1px solid #e1e1e1;
+  padding: 9px 2px;
+  margin-top: 4px;
+  outline: none;
+}
+.comment-btn {
+  color: var(--color-white);
+  background-color: var(--color-redlow);
+  padding: 8px 17px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
